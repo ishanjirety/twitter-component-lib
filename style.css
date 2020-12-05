@@ -1,0 +1,114 @@
+:root{
+    --search-bar:#EBEEF0;
+    --background-color:#FFFFFF;
+    --place-holder:#BCC5CD;
+    --hover-color:#1DA1F2;
+    --border-color:#EBEEF0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.list{
+    padding-inline-start: 0px;
+}
+.list-non-bullet{
+    list-style: none;
+    text-align: left;
+}
+.list-item-inline{
+    display: inline;
+}
+.list-search{
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-left: 1rem;
+    margin-top: -33px;
+    margin-bottom: 0px;
+}
+.navbar{
+    float: left;
+    display: inline-block;
+    border-right: 0.2px solid var(--border-color);
+    width:50px;
+    padding-right: 2rem;
+    height: 100vh;
+   
+}
+.nav-list{
+    margin: 1rem;
+   
+}
+.nav-link{
+    max-width: 80px;
+    background-color:transparent;
+    border:0px;
+    border-radius: 5rem;
+    text-align: center;
+}
+.nav-logo{
+   max-width: 30px;   
+}
+.nav-list .twitter{
+    max-width: 60px;   
+ }
+.section{
+    display: inline-block;
+    position: absolute;
+    width:80%;
+}
+.search-section{
+    display: inline;
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-top: -40px;
+    border-top-right-radius: 5rem;
+    border:0px;
+    border-bottom-right-radius: 5rem;
+    padding: 10px;
+    width: 70%;
+    padding-top: 1rem;
+    border: 0.3px;
+    background-color: var(--search-bar);
+
+}
+.search-span{
+    display: inline;
+    position: relative;
+    margin-bottom: 1rem;
+    border-top-left-radius: 5rem;
+    border:0px;
+    border-bottom-left-radius: 5rem;
+    padding-right:8px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    width: 100%;
+    border: 0.3px;
+    background-color: var(--search-bar);
+}
+.search-span div{
+    max-width: 0px;
+}
+.span-img{
+   max-width: 20px;
+}
+.btn-span{
+    display: inline;
+   margin-top: 1rem;
+}
+.btn-span img{
+    display: inline;
+     margin-top: 1rem;
+     max-width: 23px;
+}
+.btn-span button{
+    margin-top: 2rem;
+    margin-left: 0px;
+    background-color: transparent;
+    border:0px
+}
